@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "concurrence"
+description = "Examples of Python code implementations executing concurrently and in parallel"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Javier Castaño", email = "javier.data.scientist@outlook.com" },
+]
+dynamic = ["version"]
+
+[tool.hatch.version]
+path = "concurrence/__init__.py"
